@@ -1,0 +1,136 @@
+.wrapper {
+  background-image: url('brnb.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+    max-width: 600px;
+    max-height:min-content;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 100px 30px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.login-container{
+    max-width: 600px;
+    height: 93vh;;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 100px 30px; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: #ffffff;
+    margin: 0 auto;
+    position: relative;
+    background-color: #c7d2fe;
+    background-color: #ccc;
+  }
+  
+  .card-body {
+    padding: 40px;
+  }
+  
+  .card-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3f3f3f;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #3f3f3f;
+  }
+  
+  .contact-form-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #3f3f3f;
+    border: 2px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 12px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  select {
+    font-size: 16px;
+    font-weight: 500;
+    color: #3f3f3f;
+    border: 2px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 12px;
+    width: 100%;
+    margin-top: 5px;
+    background-color: #ffffff;
+  }
+  
+  textarea {
+    font-size: 16px;
+    font-weight: 500;
+    color: #3f3f3f;
+    border: 2px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 12px;
+    width: 100%;
+    margin-top: 5px;
+    resize: none;
+  }
+  
+  button[type="submit"] {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 40px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  .nav-link{
+    font-weight: bold;
+    font-size: 1.2em;
+  }

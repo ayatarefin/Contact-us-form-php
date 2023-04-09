@@ -1,0 +1,43 @@
+.wrapper {
+    background-image: url('brnb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+.admin-container{
+    max-width: 600px;
+    height: 93vh;;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 100px 10px; 
+}
+.card-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .table th, .table td {
+    font-size: 14px;
+    vertical-align: middle !important;
+  }
+  
+  .table th {
+    font-weight: bold;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  .nav-link{
+    font-weight: bold;
+    font-size: 1.2em;
+  }
